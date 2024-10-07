@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Module 6</title>
+<link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+	<ul>
+  <li><a class="active" href="#who">who</a></li>
+  <li><a href="#what">what</a></li>
+  <li><a href="#where/when">where/when</a></li>
+  <li><a href="#why/how">why/how</a></li>
+</ul>
+	
+	<h2>Morning drink</h2>
+
+<p>Choose your favorite morning drink:</p>
+
+<form>
+  <input type="radio" id="coffee" name="fav_language" value="Coffee">
+  <label for="coffee">Coffee</label><br>
+  <input type="radio" id="tea" name="fav_language" value="Tea">
+  <label for="tea">Tea</label><br>
+  <input type="radio" id="juice" name="fav_language" value="Juice">
+  <label for="juice">Juice</label>
+</form> 
+	
+	<h3>Checkboxes</h3>
+<p>Your <strong>favorite</strong> Breakfast meals:</p>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="food1" name="food1" value="Bacon">
+  <label for="food1"> Bacon</label><br>
+  <input type="checkbox" id="food2" name="food2" value="Waffles">
+  <label for="food2"> Waffles</label><br>
+  <input type="checkbox" id="food3" name="food3" value="hashbrowns">
+  <label for="food3"> Hashbrowns</label><br><br>
+  <input type="submit" value="Submit">
+</form> 
+	
+	<audio controls>
+  <source src="Rick-Roll-Sound-Effect.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+	
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.strokeText("Trust Me :)",10,50);
+</script>
+	
+</body>
+</html>
